@@ -21,4 +21,5 @@ Route::post('/register', [NewController::class, 'register']);
 Route::get('/logout', [NewController::class, 'logout']);
 
 // contact
+Route::get('/contact', [ContactController::class, 'index']);
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');

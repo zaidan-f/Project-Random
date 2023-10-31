@@ -7,6 +7,11 @@ use App\Models\Contact; // Replace with the actual model name
 
 class ContactController extends Controller
 {
+
+    public function index()
+    {
+        return view('contact');
+    } 
     public function store(Request $request)
     {
         // Validate the form data
