@@ -167,7 +167,7 @@
           </div>
       </div>
       <div class="footer-bottom">
-          &copy; 2023 Your Website | Designed by You
+          &copy; 2023 Fiya | Created by Zaidan
       </div>
   </footer>
   <svg style="position: fixed; top: 100vh;">

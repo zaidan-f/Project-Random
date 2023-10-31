@@ -1,8 +1,8 @@
 // Get the bubbles container
 const bubblesContainer = document.querySelector('.bubbles');
 
-// Create 128 bubbles
-for (let i = 0; i < 24; i++) {
+// Create bubbles
+for (let i = 0; i < 128; i++) {
   const bubble = document.createElement('div');
   bubble.classList.add('bubble');
   bubble.style.setProperty('--size', `${2 + Math.random() * 4}rem`);
