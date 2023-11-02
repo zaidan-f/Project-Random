@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="/css/home.css">
 </head>
 <body>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
     <header>
         <nav>
             <div class="navbar-logo">
